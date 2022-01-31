@@ -1,0 +1,30 @@
+.navBar {
+  background-color: #2a2d3e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navBar li {
+  display: inline-block;
+}
+.navBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}

@@ -1,0 +1,33 @@
+.hero {
+  position: relative;
+  height: 40vh;
+  background-color: blue;
+  background-image: url(Http://localhost:3000/NightSky.jpg);
+  background-size: cover;
+  background-position: 50% 75%;
+}
+
+.heroText {
+  position: absolute;
+  top: 40%;
+  right: 0%;
+  transform: translate(-75%, -50%);
+  color: white;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+}
+
+.heroText h2 {
+  padding: 1rem;
+}
+.heroText h3 {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.heroText a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #74296c;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
