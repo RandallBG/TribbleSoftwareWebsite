@@ -1,0 +1,38 @@
+.column {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+.imgWrapper {
+  width: 50%;
+  text-align: center;
+}
+.imgWrapper img {
+  width: 100%;
+}
+.columnBlurb {
+  display: flex;
+  width: 50%;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.columnBlurb h2 {
+  font-size: 36px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #74296c;
+  text-align: center;
+  margin: 0;
+}
+
+.columnBlurb p {
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 50ch;
+}
