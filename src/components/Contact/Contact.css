@@ -23,6 +23,7 @@
 
 .form-group textarea {
   height: 100%;
+  width: 100%;
 }
 
 .formInput:nth-of-type(3) {
@@ -41,3 +42,8 @@
 }
 
 
+.form-wrapper label {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
