@@ -1,4 +1,4 @@
-import Footer from "../modules/Footer/Footer";
+
 
 const Contact = () => {
   return (
@@ -6,7 +6,7 @@ const Contact = () => {
     <div>
       <h1>Contact Us</h1>
     </div>
-    <Footer />
+ 
     </div>
     
   );

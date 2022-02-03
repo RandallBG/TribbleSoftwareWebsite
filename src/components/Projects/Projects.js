@@ -2,7 +2,6 @@ import "./Projects.css";
 import placeholder from "./placeholder500x281.png";
 import auJus from "./Aujus.jpeg";
 import randallPortfolio from "./RandallsPortfolio.jpeg";
-import Footer from "../modules/Footer/Footer";
 
 const Projects = () => {
   return (
@@ -52,7 +51,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
