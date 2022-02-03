@@ -1,0 +1,25 @@
+#contactForm {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgb(27, 125, 134);
+    display: flex; ;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+    }
+
+.form-group Input {
+    margin-bottom: 1rem;
+    }
+
+    
+        
