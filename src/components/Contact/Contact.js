@@ -9,16 +9,16 @@ const Contact = () => {
         <form id="contactForm">
           <div className="form-wrapper">
             <div className="form-group">
-              <label for="name">Name:</label>
+              <label>Name:</label>
               <input className="formInput" type="text" name="name" id="name" />
-              <label for="email">Email:</label>
+              <label>Email:</label>
               <input
                 className="formInput"
                 type="email"
                 name="email"
                 id="email"
               />
-              <label for="phone">Phone:</label>
+              <label>Phone:</label>
               <input
                 className="formInput"
                 type="text"
@@ -27,7 +27,7 @@ const Contact = () => {
               />
             </div>
             <div className="form-group">
-              <label for="message">Message:</label>
+              <label>Message:</label>
               <textarea
                 className="formInput"
                 name="message"
@@ -46,8 +46,9 @@ const Contact = () => {
           </button>
         </form>
       </div>
-
-      <Modal />
+      {/* <div className="contactWrapper">
+        <Modal />
+      </div> */}
     </div>
   );
 };

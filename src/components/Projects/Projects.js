@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className="projectContainer">
       <div className="projectRow">
-        <div class="projectHeadingWrapper">
+        <div className="projectHeadingWrapper">
           <h1 id="projectsHeading">What we can do. . .</h1>
         </div>
         <div className="projects">
@@ -33,7 +33,7 @@ const Projects = () => {
       </div>
 
       <div className="projectRow">
-        <div class="projectHeadingWrapper">
+        <div className="projectHeadingWrapper">
           <h1 id="projectsHeading2">Together</h1>
         </div>
         <div className="projects">

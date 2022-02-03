@@ -6,7 +6,7 @@ const ModalPage = (props) => {
       </div>
       {props.inputs.map((input) => {
         return (
-          <div>
+          <div key={input}>
             <label>{input}</label>
             <input type="text"></input>
           </div>

@@ -1,10 +1,18 @@
+import { useEffect } from "react";
 import "./Modal.css";
 import Page from "./ModalPage";
 
 const Modal = () => {
-  //   document.getElementById("contactModal").addEventListener("click", () => {
-  //     document.getElementById("contactModal").classList.toggle("modalActive");
-  //   });
+  useEffect(() => {
+    const toggleModal = () => {
+      document.getElementById("contactModal").classList.toggle("modalActive");
+    };
+
+    document.getElementById("contactModal").addEventListener("click", (e) => {
+      console.log("clicked");
+      toggleModal();
+    });
+  });
   return (
     <div id="contactModal" className="modal modalActive">
       <Page

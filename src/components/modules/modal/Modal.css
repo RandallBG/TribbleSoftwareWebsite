@@ -8,8 +8,16 @@
 }
 
 .modalActive {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: sticky;
+  animation: modalOpen 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes modalOpen {
+  0% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
 }
