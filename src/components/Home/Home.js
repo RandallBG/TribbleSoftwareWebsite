@@ -27,7 +27,7 @@ const Home = () => {
         </div>
       </div>
       <div className="column">
-        <div className="imgWrapper">
+        <div className="imgWrapper odd">
           <h2>PICTURE</h2>
         </div>
         <div className="columnBlurb">

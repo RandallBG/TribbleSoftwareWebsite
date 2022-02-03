@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 3rem;
 }
 
 .navBar ul {
@@ -27,4 +28,98 @@
   text-decoration: none;
   color: white;
   display: inline-block;
+}
+
+.hamburgerMenu {
+  display: none;
+  margin-right: 1rem;
+  position: relative;
+  width: 30px;
+  height: 25px;
+}
+.hamburgerMenu span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 5px;
+  transition: all 0.1s ease-in-out;
+}
+
+.hamburgerMenu span::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburgerMenu span::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.active span::before {
+  top: 0;
+  transform: rotate(45deg);
+  transition: all 0.3s ease-in-out;
+}
+.active span {
+  height: 0px;
+}
+.active span::after {
+  top: 0;
+  transform: rotate(-45deg);
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 780px) {
+  .hamburgerMenu {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
+
+  #socialMediaLinks {
+    display: none;
+  }
+  #responsiveLinks {
+    display: none;
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .linksBlock {
+    display: block !important;
+  }
+  .navBar li {
+    display: block;
+  }
+  .navBar li a {
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+  }
+  .navBar li a:hover {
+    background-color: #121212;
+  }
 }

@@ -1,5 +1,6 @@
 .column {
   width: 100%;
+  min-height: 30vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -10,7 +11,7 @@
   text-align: center;
 }
 .imgWrapper img {
-  width: 100%;
+  max-width: 70%;
 }
 .columnBlurb {
   display: flex;
@@ -35,4 +36,23 @@
   padding: 1rem;
   margin: 1rem;
   max-width: 50ch;
+}
+.odd {
+  order: 0;
+}
+@media screen and (max-width: 1280px) {
+  .column {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .odd {
+    order: 1;
+  }
+  .columnBlurb {
+    width: 100%;
+  }
+  .imgWrapper {
+    width: 100%;
+  }
 }
