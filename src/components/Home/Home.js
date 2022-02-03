@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import laptop from "./Laptop.jpg";
+import Footer from "../modules/Footer/Footer";
 
 const Home = () => {
   return (
@@ -67,6 +68,7 @@ const Home = () => {
           <h2>PICTURE</h2>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

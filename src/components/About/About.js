@@ -1,3 +1,5 @@
+import Footer from "../modules/Footer/Footer";
+
 const About = () => {
   return (
     <div>
@@ -11,6 +13,7 @@ const About = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
         </p>
       </div>
+      <Footer />
     </div>
 
     
