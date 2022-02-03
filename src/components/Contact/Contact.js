@@ -1,4 +1,5 @@
 import "./Contact.css";
+import Modal from "../modules/modal/Modal";
 
 const Contact = () => {
   return (
@@ -9,16 +10,26 @@ const Contact = () => {
           <div className="form-wrapper">
             <div className="form-group">
               <label for="name">Name:</label>
-              <input class="formInput" type="text" name="name" id="name" />
+              <input className="formInput" type="text" name="name" id="name" />
               <label for="email">Email:</label>
-              <input class="formInput" type="email" name="email" id="email" />
+              <input
+                className="formInput"
+                type="email"
+                name="email"
+                id="email"
+              />
               <label for="phone">Phone:</label>
-              <input class="formInput" type="text" name="phone" id="phone" />
+              <input
+                className="formInput"
+                type="text"
+                name="phone"
+                id="phone"
+              />
             </div>
             <div className="form-group">
               <label for="message">Message:</label>
               <textarea
-                class="formInput"
+                className="formInput"
                 name="message"
                 id="message"
                 rows="5"
@@ -35,6 +46,8 @@ const Contact = () => {
           </button>
         </form>
       </div>
+
+      <Modal />
     </div>
   );
 };
