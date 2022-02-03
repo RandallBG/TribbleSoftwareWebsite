@@ -1,5 +1,25 @@
-h1 {
-    font-size: 1rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
+.footer {
+  background-color: #2a2d3e;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+.footer h1 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.socialMediaLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.socialMediaLinks svg {
+  width: 30px;
+  height: 30px;
+  margin: 0.5rem;
+  color: #6b708a;
 }

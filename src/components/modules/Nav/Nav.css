@@ -1,7 +1,7 @@
 .navBar {
   background-color: #2a2d3e;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   min-height: 3rem;
 }
@@ -30,6 +30,12 @@
   display: inline-block;
 }
 
+.socialMediaLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+}
 .hamburgerMenu {
   display: none;
   margin-right: 1rem;
