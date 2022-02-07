@@ -12,3 +12,21 @@ h5,
 h6 {
   font-family: "lato", sans-serif;
 }
+
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f5f5f9,
+    #eaecf3,
+    #dde3ed,
+    #d0dbe7,
+    #c4d3e1,
+    #b8ccdb,
+    #abc5d5,
+    #9ebcce,
+    #92b3c8,
+    #85aac1,
+    #78a1bb
+  );
+}

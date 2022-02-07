@@ -1,11 +1,21 @@
 #contactForm {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0 20px;
   background-color: #2a2d3d;
   padding: 2rem;
   margin-bottom: 4rem;
+  border-radius: 15px;
+}
+
+.contactTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #74296c;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .form-group {
@@ -13,11 +23,13 @@
   display: flex;
   flex-direction: column;
   /* height: 100%; */
-  margin: 1rem;
+  margin: 2rem 0rem 2rem 0rem;
+  width: 50%;
 }
 
 .form-group Input {
   margin-bottom: 1rem;
+  font-size: 1.3rem;
 }
 
 .form-group textarea {
@@ -32,6 +44,7 @@
 .form-wrapper {
   display: flex;
   justify-content: center;
+  gap: 4rem;
 }
 
 #contactSubmitButton {
@@ -58,4 +71,19 @@
 .contactWrapper {
   position: relative;
   margin: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .contactWrapper {
+    margin: 1rem;
+  }
+
+  .form-wrapper {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .form-group {
+    width: 100%;
+  }
 }

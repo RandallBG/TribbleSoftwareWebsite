@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="contactPage">
       <div>
-        <h1>Contact Us</h1>
+        <h1 className="contactTitle">Contact Us</h1>
         <form id="contactForm" action="./react-backend/test.php">
           <div className="form-wrapper">
             <div className="form-group">
@@ -32,7 +32,7 @@ const Contact = () => {
                 className="formInput"
                 name="message"
                 id="message"
-                rows="5"
+                rows="10"
               ></textarea>
             </div>
           </div>

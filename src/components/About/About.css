@@ -3,6 +3,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f5f5f9,
+    #eaecf3,
+    #dde3ed,
+    #d0dbe7,
+    #c4d3e1,
+    #b8ccdb,
+    #abc5d5,
+    #9ebcce,
+    #92b3c8,
+    #85aac1,
+    #78a1bb
+  );
 }
 
 .textContainer {
@@ -22,6 +37,7 @@
   padding: 3rem;
   margin: 3rem;
   border-radius: 15px;
+  background-color: #fff;
 }
 
 .textSection p {
@@ -52,17 +68,12 @@
 }
 @media screen and (max-width: 1500px) {
   .textSection {
-    padding: 2rem;
+    padding: 3rem;
     margin: 1rem;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .textSection {
-    padding: 1rem;
-    margin: 1rem;
-  }
-
   .textContainer {
     flex-direction: column;
   }
