@@ -1,6 +1,7 @@
 {
   "name": "tribblesoftware",
   "version": "0.1.0",
+  "Homepage": "http://localhost/tribble/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",

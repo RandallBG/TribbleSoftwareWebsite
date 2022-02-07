@@ -1,0 +1,78 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer {
+  margin-top: 2rem;
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textSection {
+  border: 1px solid #74296c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  margin: 3rem;
+  border-radius: 15px;
+}
+
+.textSection p {
+  margin: 0 auto;
+  max-width: 65ch;
+}
+
+.aboutTitle {
+  margin-bottom: 2rem;
+  color: #74296c;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: #74296c;
+  border: none;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+.btn:hover {
+  background-color: #a8489f;
+}
+@media screen and (max-width: 1500px) {
+  .textSection {
+    padding: 2rem;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .textSection {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .textContainer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .textContainer {
+    margin: 0;
+    padding: 0;
+  }
+  .textSection {
+    padding: 1rem;
+  }
+}

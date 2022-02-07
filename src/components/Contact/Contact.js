@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="contactPage">
       <div>
         <h1>Contact Us</h1>
-        <form id="contactForm">
+        <form id="contactForm" action="./react-backend/test.php">
           <div className="form-wrapper">
             <div className="form-group">
               <label>Name:</label>

@@ -35,9 +35,18 @@
 }
 
 #contactSubmitButton {
-  margin: 0 auto;
-  padding: 0.3rem;
+  margin: 1rem auto 0.5rem auto;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   display: block;
+  border: none;
+  background-color: #74296c;
+  cursor: pointer;
+  color: white;
+  font-size: 1.1rem;
+}
+
+#contactSubmitButton:hover {
+  background-color: #a8489f;
 }
 
 .form-wrapper label {
