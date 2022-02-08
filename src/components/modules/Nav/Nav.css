@@ -10,6 +10,11 @@
   width: 100%;
 }
 
+#logoImg {
+}
+#logoImg:hover {
+  animation: logoWobble 3s ease-in-out ;
+} 
 .navBar ul {
   list-style-type: none;
   display: inline-block;
@@ -33,7 +38,6 @@
   color: white;
   display: inline-block;
 }
-
 .socialMediaLinks {
   display: flex;
   justify-content: space-between;
@@ -131,5 +135,23 @@
   }
   .navBar li a:hover {
     background-color: #121212;
+  }
+}
+
+@keyframes logoWobble {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }

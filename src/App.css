@@ -14,7 +14,7 @@ h6 {
 }
 
 body {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     #ffffff,
     #f5f5f9,
@@ -28,5 +28,5 @@ body {
     #92b3c8,
     #85aac1,
     #78a1bb
-  );
+  ); */
 }

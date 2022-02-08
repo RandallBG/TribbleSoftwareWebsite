@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     #ffffff,
     #f5f5f9,
@@ -17,7 +17,7 @@
     #92b3c8,
     #85aac1,
     #78a1bb
-  );
+  ); */
 }
 
 .textContainer {
@@ -58,11 +58,13 @@
 .textSection p {
   margin: 0 auto;
   max-width: 65ch;
+  color: white;
 }
 
 .aboutTitle {
   margin-bottom: 2rem;
-  color: #74296c;
+  /* color: #74296c; */
+  color: white;
 }
 
 .btn {

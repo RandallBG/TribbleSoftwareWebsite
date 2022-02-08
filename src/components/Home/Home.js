@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
-import laptop from "./Laptop.jpg";
+import whatWeDo from "../../images/WhatWeDoSmall.jpg";
+import projectMeeting from "../../images/Projects.jpg";
+import peopleTalking from "../../images/peopleTalking.jpg";
 
 const Home = () => {
   return (
@@ -23,12 +25,12 @@ const Home = () => {
         </div>
 
         <div className="imgWrapper">
-          <img src={laptop} alt="laptop" />
+          <img src={whatWeDo} alt="laptop" />
         </div>
       </div>
       <div className="column">
         <div className="imgWrapper odd">
-          <h2>PICTURE</h2>
+          <img src={peopleTalking} alt="people talking" />
         </div>
         <div className="columnBlurb">
           <h2>What customers say</h2>
@@ -64,7 +66,7 @@ const Home = () => {
         </div>
 
         <div className="imgWrapper">
-          <h2>PICTURE</h2>
+          <img src={projectMeeting} alt="project meeting" />
         </div>
       </div>
     </div>

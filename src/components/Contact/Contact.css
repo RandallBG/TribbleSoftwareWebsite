@@ -1,12 +1,30 @@
+.contactWrapper {
+  position: relative;
+  background-color: white;
+  padding: 1rem;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  margin: 5rem auto;
+}
+.contactBlurb {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.contactBlurb img {
+  max-width: 100%;
+}
 #contactForm {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 0 20px;
-  background-color: #2a2d3d;
+  min-width: 50%;
   padding: 2rem;
-  margin-bottom: 4rem;
-  border-radius: 15px;
+  border-radius: 15px 0px 0px 15px;
   background-image: linear-gradient(
     to right top,
     #404761,
@@ -29,27 +47,37 @@
   font-weight: bold;
   color: #74296c;
   text-align: center;
-  margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
+.contactText {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
 .form-group {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  /* height: 100%; */
-  margin: 2rem 0rem 2rem 0rem;
-  width: 50%;
+  margin: 0rem 0rem 2rem 0rem;
+  /* width: 50%; */
 }
 
 .form-group Input {
   margin-bottom: 1rem;
   font-size: 1.3rem;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 0.5rem;
 }
 
 .form-group textarea {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0.5rem;
 }
 
 .formInput:nth-of-type(3) {
@@ -58,8 +86,9 @@
 
 .form-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 #contactSubmitButton {
@@ -83,22 +112,36 @@
   margin-bottom: 0.5rem;
 }
 
-.contactWrapper {
-  position: relative;
-  margin: 3rem;
-}
-
-@media screen and (max-width: 768px) {
-  .contactWrapper {
-    margin: 1rem;
+@media screen and (max-width: 1080px) {
+  .contactContainer {
+    width: 90%;
   }
-
+}
+@media screen and (max-width: 768px) {
   .form-wrapper {
     flex-direction: column;
-    gap: 0;
+    gap: 0rem;
   }
 
+  .contactWrapper {
+    padding: 0;
+  }
   .form-group {
     width: 100%;
+  }
+
+  #contactForm {
+    order: 2;
+    border-radius: 0;
+  }
+  .contactContainer {
+    width: 100%;
+    gap: 3rem;
+    flex-direction: column;
+  }
+
+  .contactBlurb {
+    width: 100%;
+    border: none;
   }
 }

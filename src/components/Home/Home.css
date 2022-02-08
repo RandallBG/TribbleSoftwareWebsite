@@ -1,11 +1,11 @@
 .column {
   width: 90%;
   min-height: 30vh;
-  margin: 0 auto;
+  margin: 0rem auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1rem;
+  padding: 4rem 0;
   background-color: #fff;
 }
 .imgWrapper {
@@ -14,6 +14,7 @@
 }
 .imgWrapper img {
   max-width: 70%;
+  /* max-height  */
 }
 .columnBlurb {
   display: flex;
@@ -55,6 +56,12 @@
     width: 100%;
   }
   .imgWrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .column {
     width: 100%;
   }
 }

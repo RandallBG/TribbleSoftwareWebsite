@@ -1,5 +1,6 @@
 import "./Nav.css";
 import { Link } from "react-router-dom";
+import Logo from "../../../images/tribbleLogoSmall.png";
 
 let Nav = (props) => {
   const toggleNav = () => {
@@ -10,7 +11,7 @@ let Nav = (props) => {
   return (
     <nav className="navBar">
       <a className="logo" href="/">
-        Tribble Software
+        <img id="logoImg" src={Logo} alt="Tribble Logo" />
       </a>
       <ul id="responsiveLinks">
         <li>
