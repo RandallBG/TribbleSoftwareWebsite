@@ -38,6 +38,21 @@
   margin: 3rem;
   border-radius: 15px;
   background-color: #fff;
+  background-image: linear-gradient(
+    to right top,
+    #404761,
+    #434b6a,
+    #465074,
+    #49547d,
+    #4c5987,
+    #4e5d90,
+    #516199,
+    #5365a2,
+    #5569ad,
+    #586db7,
+    #5b71c2,
+    #5e75cd
+  );
 }
 
 .textSection p {
