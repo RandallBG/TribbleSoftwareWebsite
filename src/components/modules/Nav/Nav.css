@@ -10,8 +10,6 @@
   width: 100%;
 }
 
-#logoImg {
-}
 #logoImg:hover {
   animation: logoWobble 3s ease-in-out ;
 } 
