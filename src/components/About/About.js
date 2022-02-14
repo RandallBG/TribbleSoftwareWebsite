@@ -7,9 +7,7 @@ const About = () => {
         <div className="textSection">
           <h1 className="aboutTitle">Who we are</h1>
           <p>
-            We're Tribble Software and we are a small team of web developers and
-            designers who are passionate about creating beautiful and functional
-            websites. We strive to provide our clients with the best possible
+             We strive to provide our clients with the best possible
             experience and tailor you website to your needs. We are recent
             graduates of the Tri-C Software Developers Academy and have been
             operating in the Cleveland, Ohio area for the past 6 months. We are
