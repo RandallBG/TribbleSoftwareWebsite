@@ -22,7 +22,7 @@ const About = () => {
           <h1 className="aboutTitle">How we can help you</h1>
           <p>
             Developing an online presence for your business has never been more
-            important than now. Here at Tribble, we help create a beautiful
+            important than now. We can help create a beautiful
             websites, that will attract new customers and keep them coming back.
             With our help you can be sure that your website will be a success
             and that your business will be growing. We lay our sites out in a
