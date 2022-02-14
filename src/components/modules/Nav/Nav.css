@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 3rem;
+  /* min-height: 3rem; */
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -11,8 +11,8 @@
 }
 
 #logoImg:hover {
-  animation: logoWobble 3s ease-in-out ;
-} 
+  animation: logoWobble 3s ease-in-out;
+}
 .navBar ul {
   list-style-type: none;
   display: inline-block;

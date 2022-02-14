@@ -1,3 +1,8 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .column {
   width: 90%;
   min-height: 30vh;
@@ -33,12 +38,14 @@
   color: #74296c;
   text-align: center;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .columnBlurb p {
   padding: 1rem;
   margin: 1rem;
   max-width: 50ch;
+  font-size: 1.2rem;
 }
 .odd {
   order: 0;

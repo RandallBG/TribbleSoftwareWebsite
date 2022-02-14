@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "lato", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -29,4 +29,5 @@ body {
     #85aac1,
     #78a1bb
   ); */
+  font-family: "Libre Franklin", sans-serif;
 }

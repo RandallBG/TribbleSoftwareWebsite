@@ -6,7 +6,7 @@ import peopleTalking from "../../images/peopleTalking.jpg";
 
 const Home = () => {
   return (
-    <div>
+    <div className="homeContainer">
       <div className="column">
         <div className="columnBlurb">
           <h2>What we do</h2>

@@ -1,7 +1,6 @@
 .hero {
   position: relative;
   height: 40vh;
-  background-color: blue;
   background-image: url("../../../images/NightSky.jpg");
   background-size: cover;
   background-position: 50% 75%;
@@ -15,23 +14,28 @@
   transform: translate(-75%, -50%);
   color: white;
   text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 1.2rem;
+  /* font-family: "Lato", sans-serif; */
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.3rem;
 }
 
 .heroText h1 {
   padding: 1rem;
   font-weight: 300;
+  font-family: "Roboto", sans-serif;
 }
 .heroText h3 {
   padding: 1rem;
   margin-bottom: 2rem;
   font-weight: 300;
+  font-family: "Libre Franklin", sans-serif;
 }
 .heroText a {
   text-decoration: none;
   color: #fff;
+  font-family: Lato, sans-serif;
   background-color: #74296c;
+
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
 
@@ -44,5 +48,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .heroText {
+    font-size: 1.1rem;
+    width: 100%;
   }
 }
