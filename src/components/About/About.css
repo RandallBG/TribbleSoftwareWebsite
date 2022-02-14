@@ -59,6 +59,8 @@
   margin: 0 auto;
   max-width: 65ch;
   color: white;
+  font-size: 1.3rem;
+  line-height: 1.4;
 }
 .navItem:hover {
   background-color: #6b708a;
