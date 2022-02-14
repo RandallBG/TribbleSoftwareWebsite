@@ -37,7 +37,7 @@
   padding: 3rem;
   margin: 3rem;
   border-radius: 15px;
-  /* background-color: #fff;
+  background-color: #fff;
   background-image: linear-gradient(
     to right top,
     #404761,
@@ -52,12 +52,13 @@
     #586db7,
     #5b71c2,
     #5e75cd
-  ); */
+  );
 }
 
 .textSection p {
   margin: 0 auto;
   max-width: 65ch;
+  color: white;
 }
 .navItem:hover {
   background-color: #6b708a;
@@ -65,7 +66,7 @@
 }
 .aboutTitle {
   margin-bottom: 2rem;
-  color: #74296c;
+  color: White;
 }
 
 .btn {

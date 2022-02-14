@@ -24,12 +24,14 @@
   font-weight: 300;
   font-family: "Roboto", sans-serif;
 }
+
 .heroText h3 {
   padding: 1rem;
   margin-bottom: 2rem;
   font-weight: 300;
   font-family: "Libre Franklin", sans-serif;
 }
+
 .heroText a {
   text-decoration: none;
   color: #fff;
