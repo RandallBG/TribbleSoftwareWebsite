@@ -55,11 +55,12 @@ const Home = () => {
           <h2>Our projects</h2>
           <p>
             We’ve had the pleasure of working with some great people over the
-            course of our time as a business. Operating a business is alot of work and 
-            we can help make the web aspect as smooth as possible so you can focus your 
+            course of our time as a business. Operating a business is alot of work. 
+            We make the web aspect as smooth as possible so you can focus your 
             efforts on more important things. If there’s one thing that makes us proud, 
             its seeing our clients go on to do great things and know we helped in that 
-            journey, even if only a little.
+            journey, even if only a little. 
+            Check out some of our projects here.
           </p>
         </div>
 
