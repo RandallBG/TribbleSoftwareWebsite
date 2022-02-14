@@ -45,7 +45,8 @@
   padding: 1rem;
   margin: 1rem;
   max-width: 50ch;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
 }
 .odd {
   order: 0;
