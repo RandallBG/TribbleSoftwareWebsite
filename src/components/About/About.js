@@ -16,9 +16,10 @@ const About = () => {
           <p>
             Developing an online presence for your business has never been more
             important than now. Here at Tribble, we help create a beautiful
-            website, meant to reach new customers and keep them coming back. We
-            lay our sites out in a way that ensures the most engagement
-            possible. Be that converting a sale, signing them up for a
+            websites, that will attract new customers and keep them coming back. 
+            With our help you can be sure that your website will be a success and 
+            that your business will be growing. We lay our sites out in a way that 
+            ensures the most engagement possible. Converting a sale, signing them up for a
             newsletter, or just giving them the information they are looking for
             in the easiest to find locations.
           </p>

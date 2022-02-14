@@ -11,12 +11,11 @@ const Home = () => {
         <div className="columnBlurb">
           <h2>What we do</h2>
           <p>
-            Here at Tribble software we strive to create stunning websites
-            tailored to your needs as a customer. We understand that every
-            business problem requires a hand crafted solution. This is why we
-            spend our time up front understanding you and your business needs.
-            Once we understand how our clients business works, we set off to
-            create something you can not only be proud of, but feel good showing
+            We strive to create stunning websites tailored to your needs as a 
+            customer. We understand that every business problem requires a hand 
+            crafted solution. This is why we spend our time up front understanding 
+            you and your business needs. Once we understand how our clients business works, 
+            we set off to create something you can not only be proud of, but feel good showing
             people. Keep in mind visuals are just the beginning. We take our
             time to make sure everything on the page is laid out in a manner
             that brings your customers to the correct information. We do this to
@@ -56,12 +55,11 @@ const Home = () => {
           <h2>Our projects</h2>
           <p>
             We’ve had the pleasure of working with some great people over the
-            course of our time as a business. Creating a business is tough work
-            and we like to think we can help make the web aspect as smooth as
-            possible so you can focus your efforts at more important things. If
-            there’s one thing that makes us proud, its seeing our clients go on
-            to do great things and know we helped in that journey, even if only
-            a little.
+            course of our time as a business. Operating a business is alot of work and 
+            we can help make the web aspect as smooth as possible so you can focus your 
+            efforts on more important things. If there’s one thing that makes us proud, 
+            its seeing our clients go on to do great things and know we helped in that 
+            journey, even if only a little.
           </p>
         </div>
 
