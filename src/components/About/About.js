@@ -32,7 +32,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div class="btn">
+      <div className="btn">
         <Link to="/contact">Free Quote</Link>
       </div>
     </div>

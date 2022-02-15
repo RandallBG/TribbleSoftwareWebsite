@@ -51,6 +51,18 @@
 .odd {
   order: 0;
 }
+
+.quote {
+  display: block;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #74296c;
+  font-family: "Roboto", sans-serif;
+}
+.btn {
+  color: white;
+  text-decoration: none;
+}
 @media screen and (max-width: 1280px) {
   .column {
     flex-direction: column;
