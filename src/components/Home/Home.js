@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 import whatWeDo from "../../images/WhatWeDoSmall.jpg";
 import projectMeeting from "../../images/Projects.jpg";
@@ -11,18 +12,18 @@ const Home = () => {
         <div className="columnBlurb">
           <h2>What we do</h2>
           <p>
-            We strive to create stunning websites tailored to your needs as a 
-            customer. We understand that every business problem requires a hand 
-            crafted solution. This is why we spend our time up front understanding 
-            you and your business needs. Once we understand how our clients business works, 
-            we set off to create something you can not only be proud of, but feel good showing
-            people. Keep in mind visuals are just the beginning. We take our
-            time to make sure everything on the page is laid out in a manner
-            that brings your customers to the correct information. We do this to
-            make sure you get the best engagements or sales possible. As a small
-            team we take pride in making sure you know you’re not just another
-            cog in the wheel, but one of our clients. To us, that means
-            something.
+            We strive to create stunning websites tailored to your needs as a
+            customer. We understand that every business problem requires a hand
+            crafted solution. This is why we spend our time up front
+            understanding you and your business needs. Once we understand how
+            our clients business works, we set off to create something you can
+            not only be proud of, but feel good showing people. Keep in mind
+            visuals are just the beginning. We take our time to make sure
+            everything on the page is laid out in a manner that brings your
+            customers to the correct information. We do this to make sure you
+            get the best engagements or sales possible. As a small team we take
+            pride in making sure you know you’re not just another cog in the
+            wheel, but one of our clients. To us, that means something.
           </p>
         </div>
 
@@ -37,16 +38,16 @@ const Home = () => {
         <div className="columnBlurb">
           <h2>What customers say</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam
-            pellentesque nec nam aliquam. Pharetra vel turpis nunc eget lorem
-            dolor. Imperdiet proin fermentum leo vel orci porta non. Euismod
-            elementum nisi quis eleifend quam adipiscing vitae proin. Sed nisi
-            lacus sed viverra tellus in hac habitasse platea. Interdum velit
-            laoreet id donec ultrices tincidunt. Morbi enim nunc faucibus a
-            pellentesque sit amet porttitor. Sit amet est placerat in egestas
-            erat. Sodales ut eu sem integer vitae. Nisl pretium fusce id velit.
-            Orci a scelerisque purus semper eget duis.
+            "In early 2022, my company Au Jus LLC needed a nice new streamlined
+            website. The website needed to both look visually appealing and have
+            ease of use. We decided to go with Tribble Software. The company was
+            super informative, explained all the available options, and steered
+            us in the right direction. We met the company owners virtually and
+            in person. These meetings helped everything move forward smoothly.
+            Anybody interested in a new website, or other tech solutions should
+            contact Tribble software for a consultation. They are highly
+            recommended."
+            <span className="quote"> ~ Jakob Kelly , owner Au Jus LLC</span>
           </p>
         </div>
       </div>
@@ -55,13 +56,16 @@ const Home = () => {
           <h2>Our projects</h2>
           <p>
             We’ve had the pleasure of working with some great people over the
-            course of our time as a business. Operating a business is alot of work. 
-            We make the web aspect as smooth as possible so you can focus your 
-            efforts on more important things. If there’s one thing that makes us proud, 
-            its seeing our clients go on to do great things and know we helped in that 
-            journey, even if only a little. 
-            Check out some of our projects here.
+            course of our time as a business. Operating a business is alot of
+            work. We make the web aspect as smooth as possible so you can focus
+            your efforts on more important things. If there’s one thing that
+            makes us proud, its seeing our clients go on to do great things and
+            know we helped in that journey, even if only a little. Check out
+            some of our projects here.
           </p>
+          <Link className="btn" to="/projects">
+            View Projects
+          </Link>
         </div>
 
         <div className="imgWrapper">

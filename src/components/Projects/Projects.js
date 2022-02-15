@@ -19,45 +19,31 @@ const Projects = () => {
             <h3 className="projectCardTitle">Au Jus</h3>
             <img src={auJus} alt="projects" loading="lazy" />
             <p className="projectCardDescription">
-              We worked on this site doing many things blah blah blah
+              Worked with an up and coming resturant to create an online
+              presence and a place for their customers to see their menu and
+              order.
             </p>
           </a>
-          <div className="projectCard">
+          <a
+            href="https://www.randallgosnell.com"
+            target="_blank"
+            className="projectCard"
+          >
             <h3 className="projectCardTitle">Randall's Portfolio</h3>
             <img src={randallPortfolio} alt="projects" loading="lazy" />
             <p className="projectCardDescription">
-              worked on creating a stunning portfolio
+              A portfolio website created for a local web developer to show
+              employers. Showcases their known technologies and work.
             </p>
-          </div>
-          <div className="projectCard">
-            <img src={placeholder} alt="projects" loading="lazy" />
-            <p></p>
-          </div>
-          <div className="projectCard">
-            <img src={placeholder} alt="projects" loading="lazy" />
-            <p></p>
-          </div>
+          </a>
         </div>
       </div>
 
       <div className="projectRow">
         <div className="projectHeadingWrapper">
-          <h1 id="projectsHeading2">Together</h1>
+          <h1 id="projectsHeading2"></h1>
         </div>
-        <div className="projects">
-          <div className="projectCard">
-            <img src={placeholder} alt="projects" loading="lazy" />
-            <p></p>
-          </div>
-          <div className="projectCard">
-            <img src={placeholder} alt="projects" loading="lazy" />
-            <p></p>
-          </div>
-          <div className="projectCard">
-            <img src={placeholder} alt="projects" loading="lazy" />
-            <p></p>
-          </div>
-        </div>
+        <div className="projects"></div>
       </div>
     </div>
   );

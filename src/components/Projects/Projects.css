@@ -28,16 +28,17 @@
 
 .projects {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  gap: 5rem;
 }
 
 .projectCard {
+  width: 50%;
   border: 1px solid #74296c;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: 2rem;
   background-color: #2a2d3e;
   background-image: linear-gradient(
     to right top,
@@ -95,6 +96,11 @@
   }
   .projects {
     flex-direction: column;
+  }
+
+  .projectCard {
+    width: 100%;
+    margin: 1rem 0;
   }
 
   #projectsHeading {

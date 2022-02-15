@@ -5,9 +5,8 @@ const Contact = () => {
   return (
     <div className="contactWrapper">
       <div>
-        {/* <h1 className="contactTitle">Contact Us</h1> */}
         <div className="contactContainer">
-          <form id="contactForm" action="./react-backend/test.php">
+          <form id="contactForm" action="./react-backend/mailInstructions.php">
             <div className="form-wrapper">
               <div className="form-group">
                 <label>Name:</label>

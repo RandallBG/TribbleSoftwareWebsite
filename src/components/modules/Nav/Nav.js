@@ -14,16 +14,16 @@ let Nav = (props) => {
         <img id="logoImg" src={Logo} alt="Tribble Logo" />
       </a>
       <ul id="responsiveLinks">
-        <li class="navItem">
+        <li className="navItem">
           <Link to="/">Home</Link>
         </li>
-        <li class="navItem">
+        <li className="navItem">
           <Link to="/about">About</Link>
         </li>
-        <li class="navItem">
+        <li className="navItem">
           <Link to="/projects">Projects</Link>
         </li>
-        <li class="navItem">
+        <li className="navItem">
           <Link to="/contact">Contact us</Link>
         </li>
       </ul>
