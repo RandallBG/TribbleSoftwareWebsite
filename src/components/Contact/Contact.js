@@ -97,7 +97,6 @@ const Contact = () => {
     sendMailForm.addEventListener("click", (e) => {
       e.preventDefault();
       formValidation();
-      // sendForm();
     });
   }, []);
 

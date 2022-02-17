@@ -2,7 +2,7 @@
 
 1. compress the images and perhaps add smaller versions for phones
 
-2. Make dropdown navigation an animation on mobile
+2. Make dropdown navigation an animation on mobile - finished (make sure works on higher res monitors though still)
 
 3. create loading animation for after sending contact form email and before the modal pops up
 
@@ -14,4 +14,4 @@
 
 7. Change Gradients
 
-8. Add form validation
+8. Add form validation -- DONE

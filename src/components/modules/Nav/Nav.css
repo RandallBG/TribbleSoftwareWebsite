@@ -115,13 +115,16 @@
     display: none;
   }
   #responsiveLinks {
-    display: none;
+    height: 0px;
+    transform: translateY(-100%);
     width: 100%;
     margin-top: 3rem;
+    transition: all 0.3s ease-in-out;
   }
 
   .linksBlock {
-    display: block !important;
+    transform: translateY(0) !important ;
+    height: 200px !important;
   }
   .navBar li {
     display: block;
