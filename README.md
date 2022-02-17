@@ -15,3 +15,5 @@
 7. Change Gradients
 
 8. (DONE) Add form validation
+
+9. IMPORTANT - Add the attribution for the images used
