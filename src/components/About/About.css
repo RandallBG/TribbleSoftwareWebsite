@@ -53,6 +53,7 @@
     #5b71c2,
     #5e75cd
   );
+  align-self: stretch;
 }
 
 .textSection p {
