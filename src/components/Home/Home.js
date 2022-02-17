@@ -12,7 +12,7 @@ const Home = () => {
         <div className="columnBlurb">
           <h2>What we do</h2>
           <p>
-            Shutup Derek We strive to create stunning websites tailored to your needs as a
+            We strive to create stunning websites tailored to your needs as a
             customer. We understand that every business problem requires a hand
             crafted solution. This is why we spend our time up front
             understanding you and your business needs. Once we understand how
