@@ -27,14 +27,83 @@ const Contact = () => {
       };
     }
 
+    const formValidation = () => {
+      //clear any previous errors
+      document.getElementById("formErrors").innerHTML = "";
+      //get the form values
+      const name = document.getElementById("name");
+      const email = document.getElementById("email");
+      const message = document.getElementById("message");
+      const phone = document.getElementById("phone");
+      const spam = document.getElementById("testThis");
+
+      //bool to determine if any errors were detected
+      let isValid = true;
+
+      //tests
+      if (spam.value != "") {
+        console.log(spam.value);
+        isValid = false;
+        document.getElementById("formErrors").innerHTML += "Spam detected!";
+      }
+      //name test
+      if (name.value.length < 3) {
+        name.style.borderColor = "red";
+        //add error message
+        document.getElementById("formErrors").innerHTML +=
+          "<p class='formErrorItem'>Name must be at least 3 characters</p>";
+
+        isValid = false;
+      } else {
+        name.style.borderColor = "green";
+      }
+
+      //email test
+      if (email.value.length < 3) {
+        email.style.borderColor = "red";
+        isValid = false;
+      } else {
+        email.style.borderColor = "green";
+      }
+
+      //phone test
+      //phone regex
+      var phoneRegex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+      //test field for spams
+
+      if (phone.value.match(phoneRegex)) {
+        phone.style.borderColor = "green";
+      } else {
+        phone.style.borderColor = "red";
+        document.getElementById("formErrors").innerHTML +=
+          "<p class='formErrorItem'>Phone number must be in the format xxx-xxx-xxxx</p>";
+        isValid = false;
+      }
+      //message test
+      if (message.value.length < 3) {
+        message.style.borderColor = "red";
+        document.getElementById("formErrors").innerHTML +=
+          "<p class='formErrorItem'>Message must be at least 3 characters</p>";
+        isValid = false;
+      } else {
+        message.style.borderColor = "green";
+      }
+
+      if (isValid) {
+        sendForm();
+      }
+    };
+
     sendMailForm.addEventListener("click", (e) => {
       e.preventDefault();
-      sendForm();
+      formValidation();
+      // sendForm();
     });
   }, []);
 
   return (
     <div className="contactWrapper">
+      <div id="formErrors"></div>
       <div>
         <div className="contactContainer">
           <form
@@ -74,6 +143,17 @@ const Contact = () => {
                   id="message"
                   rows="10"
                 ></textarea>
+                <p id="the-great-filter">
+                  <label id="testThisLabel">
+                    if you are an actual person do not put anything here
+                  </label>
+                  <input
+                    name="testThis"
+                    type="text"
+                    id="testThis"
+                    defaultValue=""
+                  />
+                </p>
               </div>
             </div>
 

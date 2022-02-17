@@ -112,6 +112,25 @@
   margin-bottom: 0.5rem;
 }
 
+#formErrors {
+  text-align: center;
+  background-color: #f2dede;
+  color: red;
+  font-size: 1.2rem;
+  width: 100%;
+}
+/* fake field for the bots */
+#the-great-filter,
+#testThis,
+#testThisLabel {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0px none;
+  padding: 0px;
+}
 @media screen and (max-width: 1080px) {
   .contactContainer {
     width: 90%;
