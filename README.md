@@ -1,3 +1,6 @@
+Tribble Software 
+    
+
 # Things to do still
 
 1. compress the images and perhaps add smaller versions for phones
