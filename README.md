@@ -1,3 +1,6 @@
+Tribble Software 
+    
+
 # Things to do still
 
 1. compress the images and perhaps add smaller versions for phones
@@ -18,4 +21,4 @@
 
 9. IMPORTANT - Add the attribution for the images used
 
-10. Not code related. Finish Social Media add Pictures to social media.
+10. Not code related. Finish Social Media add Pictures to social media. Fiverr. Instagram etc...
