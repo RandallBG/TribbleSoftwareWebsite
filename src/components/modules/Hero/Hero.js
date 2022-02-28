@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="hero">
       <div className="heroText">
         <h1>Web developers who care</h1>
-        <h3>Write to us for a quote, its free.</h3>
+        <h2>Write to us for a quote, its free.</h2>
         <Link className="mainBtn" to="/contact">
           Contact
         </Link>

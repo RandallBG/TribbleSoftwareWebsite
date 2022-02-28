@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import whatWeDo from "../../images/WhatWeDoSmall.jpg";
-import projectMeeting from "../../images/Projects.jpg";
-import peopleTalking from "../../images/peopleTalking.jpg";
+import projectMeeting from "../../images/ProjectsSmall.jpg";
+import peopleTalking from "../../images/peopleTalkingSmall.jpg";
 
 const Home = () => {
   return (
