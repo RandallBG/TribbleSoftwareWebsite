@@ -1,114 +1,57 @@
-.projectContainer {
-  display: flex;
+.projectCard{
+  /* outline: 1px solid black; */
+  width: 80vw;
+  margin: 5rem auto;
+  display:flex;
+  justify-content: space-around;
+}
+
+.projectCard__textSection{
+  max-width: 55ch;
+  font-size: 1.2rem;
+  display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-
-.projectRow {
-  margin: 1rem;
   position: relative;
-  width: 75%;
+  margin-left: 1rem;
 }
-
-.projectHeadingWrapper {
-  height: 2rem;
-  position: relative;
-  width: 100%;
-  margin: 2rem 0 4rem 0;
-  text-align: center;
-}
-
-#projectsHeading {
-  position: absolute;
-  top: 0;
-  right: 70%;
+.projectCard__textSection-title{
   color: #74296c;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  
+}
+.projectCard__textSection-text{
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+  
 }
 
-.projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap: 5rem;
+.projectCard img{
+  width: 400px;
+  height: 400px;
 }
 
-.projectCard {
-  width: 50%;
-  border: 1px solid #74296c;
-  border-radius: 0.5rem;
-  padding: 2rem;
-  background-color: #2a2d3e;
-  background-image: linear-gradient(
-    to right top,
-    #404761,
-    #434b6a,
-    #465074,
-    #49547d,
-    #4c5987,
-    #4e5d90,
-    #516199,
-    #5365a2,
-    #5569ad,
-    #586db7,
-    #5b71c2,
-    #5e75cd
-  );
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
-  margin: 1rem 0 5rem 0;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-  color: white;
-}
-
-.projectCard:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 7px 15px rgba(67, 77, 101, 1);
-}
-
-.projectCardTitle {
-  /* color: #74296c; */
-  color: white;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.projectCardDescription {
-  font-size: 1.1rem;
-}
-
-.projects img {
-  margin: 1rem 0 1rem 0;
-  box-shadow: rgba(67, 77, 101, 1) 0px 5px 7px;
-  width: 100%;
-}
-
-@media screen and (max-width: 1400px) {
-  .projectRow {
-    width: 100%;
+@media screen and (max-width: 1080px){
+  .projectCard{
+    width: 95%;
   }
+
 }
 
-@media screen and (max-width: 768px) {
-  .projectRow {
-    width: 100%;
-  }
-  .projects {
+@media screen and (max-width: 800px){
+  .projectCard{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-
-  .projectCard {
-    width: 100%;
-    margin: 1rem 0;
+  .projectCard img{
+    margin-bottom: 2rem;
   }
-
-  #projectsHeading {
-    position: static;
-    transform: translate(0);
+  .projectCard__textSection{
+    margin-left: 0;
   }
-  .projects img {
-    width: 100%;
-    margin: 1rem 0 1rem 0;
+  .projectCard__textSection-title{
+    text-align:center;
   }
 }

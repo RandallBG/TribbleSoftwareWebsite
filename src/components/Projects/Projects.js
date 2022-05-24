@@ -1,50 +1,33 @@
 import "./Projects.css";
 import placeholder from "./placeholder500x281.png";
-import auJus from "./Aujus.jpeg";
-import randallPortfolio from "./RandallsPortfolio.jpeg";
+import auJus from "./AuJus.webp";
+import randallPortfolio from "./RandallsPortfolio.webp";
 import {Link} from 'react-router-dom';
 
 const Projects = () => {
   return (
-    <div className="projectContainer">
-      <div className="projectRow">
-        <div className="projectHeadingWrapper">
-          <h1 id="projectsHeading">What we can do. . .</h1>
-        </div>
-        <div className="projects">
-          <a
-            href="https://aujus-cle.com"
-            target="_blank"
-            className="projectCard"
-          >
-            <h3 className="projectCardTitle">Au Jus</h3>
-            <img src={auJus} alt="projects" loading="lazy" />
-            <p className="projectCardDescription">
-              Worked with an up and coming resturant to create an online
-              presence and a place for their customers to see their menu and
-              order.
-            </p>
-          </a>
-          <a
-            href="https://www.randallgosnell.com"
-            target="_blank"
-            className="projectCard"
-          >
-            <h3 className="projectCardTitle">Randall's Portfolio</h3>
-            <img src={randallPortfolio} alt="projects" loading="lazy" />
-            <p className="projectCardDescription">
-              A portfolio website created for a local web developer to show
-              employers. Showcases their known technologies and work.
-            </p>
-          </a>
+    <div>
+      <div className="projectCard">
+        <img src={auJus} alt="Aujus website homepage"></img>
+        <div className="projectCard__textSection">
+          <h2 className="projectCard__textSection-title">Au Jus</h2>
+          <p className="projectCard__textSection-text">A website created for an up and coming restaurant in the greater Cleveland Ohio area. Having a menu that is easily accessible and guiding users to the online ordering page through our UX and UI design were the most important aspects for this project. </p>
+          <a href="https://www.aujus-cle.com" target="_blank" className="btn projectCard__textSection-btn">View Site</a>
         </div>
       </div>
+      <div className="projectCard">
 
-      <div className="projectRow">
-        <div className="projectHeadingWrapper">
-          <h1 id="projectsHeading2"></h1>
+      </div>
+      <div className="projectCard">
+        <img src={randallPortfolio} alt="portfolio site homepage"></img>
+        <div className="projectCard__textSection">
+          <h2 className="projectCard__textSection-title">Portfolio Sites</h2>
+          <p className="projectCard__textSection-text">Websites created to showcase a specific set of work done by an individual or group. The focus on these websites would be to really show what the client is capable of and show all the things they have and can accomplish.</p>
+          <a href="https://www.RandallGosnell.com" target="_blank" className="btn projectCard__textSection-btn">View Site</a>
         </div>
-        <div className="projects"></div>
+      </div>
+      <div className="projectCard">
+
       </div>
     </div>
   );
