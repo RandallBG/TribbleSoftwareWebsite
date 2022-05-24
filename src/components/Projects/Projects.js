@@ -2,6 +2,7 @@ import "./Projects.css";
 import placeholder from "./placeholder500x281.png";
 import auJus from "./Aujus.jpeg";
 import randallPortfolio from "./RandallsPortfolio.jpeg";
+import {Link} from 'react-router-dom';
 
 const Projects = () => {
   return (
@@ -12,7 +13,7 @@ const Projects = () => {
         </div>
         <div className="projects">
           <a
-            href="https://www.aujus.randallgosnell.com"
+            href="https://aujus-cle.com"
             target="_blank"
             className="projectCard"
           >
